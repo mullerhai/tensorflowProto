@@ -10,6 +10,8 @@ libraryDependencies += "org.tensorflow" %% "tensorflowproto" % "0.1"
 
 
 ### dependency
+
+```
 resolvers += "tensorflow-snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
 lazy val deps = new {
   val main = new {
@@ -71,3 +73,5 @@ lazy val root = project.in(file("."))
 
     )
   )
+
+```
